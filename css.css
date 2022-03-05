@@ -30,20 +30,20 @@ body, html {
   }
 /*Fondo de pantalla del primer parallax*/
   .parallax-1 {
-    background-image: url('/img/217253307_3699545880145751_7691020945910712317_n.jpg');
+    background-image: url('img/217253307_3699545880145751_7691020945910712317_n.jpg');
     background-color: black;
     background-position: center;
     min-height: 100%;
   }
 
   .parallax-2 {
-    background-image: url('/img/155957142_851873825372071_8253572910117807999_n.jpg');
+    background-image: url('img/155957142_851873825372071_8253572910117807999_n.jpg');
     background-position: top;
     min-height: 100%;
   }
 
   .parallax-3 {
-    background-image: url('/img/173113518_142719204520541_6731713616380300184_n.jpg');
+    background-image: url('img/173113518_142719204520541_6731713616380300184_n.jpg');
     background-color: lightcoral;
     background-size: 30%;
     background-position: center;
