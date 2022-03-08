@@ -76,7 +76,6 @@ body, html {
   h1 {
     font-family: 'Shadows Into Light', cursive !important;
     color: white;
-    filter: drop-shadow(0 0 0.4rem black);
     background-color: rgba(22, 22, 22, 0.88);
     cursor: default;
   }
@@ -104,10 +103,10 @@ body, html {
 
 
   .logo:hover {
-    min-width: 8cm;
+    min-width: 8.2cm;
     filter: drop-shadow(0 0 0.9rem white);
     transition: all .8s;
-    animation: myAnim 1.7s ease 0s 1 normal forwards;
+    animation: myAnim 1.5s ease 0s 1 normal forwards;
   }
   
   @keyframes myAnim {
