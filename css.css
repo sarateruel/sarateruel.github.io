@@ -259,6 +259,7 @@ body, html {
       color: black;
       font-family: 'Poppins', cursive !important;
       font-weight: bold;
+      cursor: default;
     }
   
     @media (max-width: 1000px) {
