@@ -210,7 +210,7 @@ body, html {
     }
   
     .logos>a>img {
-      width: 1000px;
+      width: 100%;
       border-radius: 4px;
       transition: all 0.1s;
     }
