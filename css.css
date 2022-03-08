@@ -38,8 +38,8 @@ body, html {
   
 
   .parallax-2 {
-    background-image: url('img/155957142_851873825372071_8253572910117807999_n.jpg');
-    background-position: top;
+    background-image: url('img/collage.png');
+    background-position: center;
     min-height: 100%;
   }
 
