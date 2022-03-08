@@ -54,7 +54,7 @@ body, html {
     background-color: white;
     background-size: 30%;
     background-position: center;
-    min-height: 80%;
+    min-height: 100%;
   }
 
   .parallax-sobremi {
@@ -90,7 +90,6 @@ body, html {
   h3 {
     font-family: 'Shadows Into Light', cursive !important;
     color: white;
-    filter: drop-shadow(0 0 0.4rem black);
   }
 
 
@@ -150,7 +149,7 @@ body, html {
 
 
   #textpanel2 {
-    background-color: rgba(48, 43, 33, 0.777);
+    background-color: rgba(92, 85, 72, 0.9);
     padding: 16px;
     border-radius: 16px;
     border: 2px solid gray;
