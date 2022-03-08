@@ -193,6 +193,7 @@ body, html {
       margin-right: 4px;
       margin-left: 4px;
       transition: all .2s;
+      border: 1px solid rgba(20, 20, 20, 0);
     }
 
     .w3-col > a > h2:hover {
