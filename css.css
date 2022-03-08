@@ -44,11 +44,11 @@ body, html {
   }
 
   .parallax-3 {
-    background-image: url('img/173113518_142719204520541_6731713616380300184_n.jpg');
+    background-image: url('img/203370731_927667631348627_6038795100199267470_n.jpg');
     background-color: lightcoral;
-    background-size: 30%;
+    background-size: 100%;
     background-position: center;
-    min-height: 100%;
+    min-height: 20%;
   }
 
   .parallax-4 {
@@ -59,11 +59,11 @@ body, html {
   }
 
   .parallax-sobremi {
-    background-image: url('test.gif');
+    background-image: url('img/204274358_497906158141707_7375162647487523777_n.jpg');
+    background-color: lightcoral;
     background-size: 100%;
-    background-size: cover;
     background-position: center;
-    min-height: 180%;
+    min-height: 100%;
   }
 
   .parallax-footer {
@@ -107,7 +107,7 @@ body, html {
     min-width: 8cm;
     filter: drop-shadow(0 0 0.9rem white);
     transition: all .8s;
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: myAnim 1.7s ease 0s 1 normal forwards;
   }
   
   @keyframes myAnim {
@@ -163,19 +163,22 @@ body, html {
 
 
   #textpanel2 {
-    background-color: rgba(92, 85, 72, 0.9);
-    padding: 16px;
+    background-color: rgba(88, 88, 88, 0.8);
+    padding: 64px;
     border-radius: 16px;
     border: 2px solid gray;
     font-family: 'Poppins', sans-serif;
     transition: all .5s;
     width: 800px;
     min-width: 100px;
+    display: block;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #textpanel2:hover {
   cursor: default;
-  padding: 16px;
   border-radius: 16px;
   border: 2px solid white;
   font-family: 'Poppins', sans-serif;
@@ -331,9 +334,8 @@ body, html {
       background: #232931;
       width: 540px;
       height: 500px;
-      margin: 0 auto;
       position: relative;
-      margin-top: 10%;
+      margin-top: 0%;
       box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
     }
     
@@ -362,7 +364,6 @@ body, html {
     
     .rightbox {
       padding: 0em 34rem 0em 0em;
-      height: 100%;
     }
     
     .rb-container {
