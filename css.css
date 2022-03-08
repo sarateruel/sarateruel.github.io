@@ -33,8 +33,9 @@ body, html {
     background-image: url('img/217253307_3699545880145751_7691020945910712317_n.jpg');
     background-color: black;
     background-position: center;
-    min-height: 100%;
+    min-height: 100%; 
   }
+  
 
   .parallax-2 {
     background-image: url('img/155957142_851873825372071_8253572910117807999_n.jpg');
@@ -99,12 +100,25 @@ body, html {
       filter: drop-shadow(0 0 0.4rem black);
       transition: all .5s;
       top: 200px !important;
-  }
+    }
+
 
   .logo:hover {
     min-width: 8cm;
     filter: drop-shadow(0 0 0.9rem white);
     transition: all .8s;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  
+  @keyframes myAnim {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }
 
   #hd {
