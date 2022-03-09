@@ -247,6 +247,20 @@ body, html {
 
 
     @media only screen and (max-width: 650px){
+
+      .logo:hover {
+        min-width: 7cm;
+        filter: drop-shadow(0 0 0.9rem white);
+        transition: all .8s;
+        animation: myAnim 1.5s ease 0s 1 normal forwards;
+      }
+
+      .parallax-2 {
+        background-image: url('img/collage1k.png') !important;
+        background-position: center;
+        min-height: 100%;
+      }
+
       .menu-desktop {
         display: none;
       }
@@ -329,9 +343,9 @@ body, html {
 
   .gridlogo {
     display: grid;
-    padding: 9% !important;
-    gap: 10px !important;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+    padding: 5% !important;
+    gap: 16px !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
   }
 
   .logos>a>img {
