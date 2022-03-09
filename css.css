@@ -343,6 +343,7 @@ body, html {
   .gridlogo {
     display: grid;
     padding: 5% !important;
+    padding-bottom: 128px !important;
     gap: 16px !important;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
   }
