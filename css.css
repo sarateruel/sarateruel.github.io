@@ -359,50 +359,7 @@ body, html {
 
 
 
-    @media only screen and (max-width: 850px){
-
-      #textpanel2 {
-        background-color: rgba(88, 88, 88, 0.8);
-        padding: 16px;
-        border-radius: 16px;
-        border: 2px solid gray;
-        font-family: 'Poppins', sans-serif;
-        transition: all .5s;
-        width: 80%;
-        min-width: 100px;
-        display: block;
-        margin-top: -100px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     
-    #textpanel2:hover {
-      cursor: default;
-      border-radius: 16px;
-      border: 2px solid white;
-      font-family: 'Poppins', sans-serif;
-      transition: all .5s;
-    }
-  
-    .item-title {
-      color: #fff;
-      font-size: 12px;
-      font-family: 'Poppins', sans-serif;
-      width: 250px;
-    }
-
-    .rb-item {
-      transition: all .5s;
-    }
-  
-    .rb-item:hover {
-      width: 400px;
-      transition: all .5s;
-    }
-
-    }
-
-
 
     .gridlogo {
       display: grid;
@@ -553,7 +510,6 @@ body, html {
     }
     
     .rightbox {
-      padding: 0em 34rem 0em 0em;
     }
     
     .rb-container {
@@ -609,7 +565,7 @@ body, html {
       font-family: 'Poppins', sans-serif;
       text-transform: uppercase;
       position: relative;
-      width: 2000px;
+      width: 200px;
       min-width: 100px;
     }
     
