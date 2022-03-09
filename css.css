@@ -207,8 +207,13 @@ body, html {
 
 
     .iconmobile {
-      margin-top: 10px;
       width: 64px;
+      transition: all .2s;
+    }
+
+    .iconmobile:hover {
+      filter: drop-shadow(0 0 0.2rem white);
+      transition: all .2s;
     }
 
     
@@ -239,6 +244,9 @@ body, html {
       .menu-mobile {
         visibility: visible;
         display: block;
+        background-color: rgba(0, 0, 0, 0.6); 
+        padding: 16px;
+        border-radius:  0 0 16px 16px;
       }
 
       #scrollTop {
