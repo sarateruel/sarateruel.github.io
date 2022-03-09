@@ -119,7 +119,7 @@ body, html {
 
 
     .hd {
-      font-size: 10px;
+      font-size: 12px;
       transition: all .3s;
       animation:colorchange 1s infinite alternate;
     }
