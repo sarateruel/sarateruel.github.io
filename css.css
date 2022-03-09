@@ -61,7 +61,7 @@ body, html {
   .parallax-sobremi {
     background-image: url('img/204274358_497906158141707_7375162647487523777_n.jpg');
     background-color: lightcoral;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     min-height: 100%;
   }
@@ -83,7 +83,6 @@ body, html {
   h2 {
     font-family: 'Shadows Into Light', cursive !important;
     color: white;
-    filter: drop-shadow(0 0 0.4rem black);
     background-color: rgba(22, 22, 22, 0.88);
   }
 
@@ -169,7 +168,7 @@ body, html {
     width: 800px;
     min-width: 100px;
     display: block;
-    margin-top: -128px;
+    margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -237,6 +236,16 @@ body, html {
       transition: all .2s;
     }
 
+
+
+
+
+
+
+
+
+
+
     @media only screen and (max-width: 650px){
       .menu-desktop {
         display: none;
@@ -272,6 +281,104 @@ body, html {
         font-family: 'Poppins', sans-serif;
         transition: all .5s;
         width: 80%;
+    }
+
+    #textpanel2 {
+      background-color: rgba(88, 88, 88, 0.8);
+      padding: 8px;
+      border-radius: 16px;
+      border: 2px solid gray;
+      font-family: 'Poppins', sans-serif;
+      transition: all .5s;
+      width: 80%;
+      min-width: 100px;
+      display: block;
+      margin-top: 32px !important;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  #textpanel2:hover {
+    cursor: default;
+    border-radius: 16px;
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+  }
+
+  .item-title {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px !important;
+  }
+
+
+  .rb-item {
+    width: 30px !important;
+    transition: all .5s;
+  }
+
+  .rb-item:hover {
+    width: 300px !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0 16px 16px 32px;
+    font-size: 20px;
+    transition: all .5s;
+  }
+
+  .gridlogo {
+    display: grid;
+    padding: 10%;
+    padding-top: 200px !important;
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+
+    }
+
+
+
+    @media only screen and (max-width: 850px){
+
+      #textpanel2 {
+        background-color: rgba(88, 88, 88, 0.8);
+        padding: 16px;
+        border-radius: 16px;
+        border: 2px solid gray;
+        font-family: 'Poppins', sans-serif;
+        transition: all .5s;
+        width: 80%;
+        min-width: 100px;
+        display: block;
+        margin-top: -100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #textpanel2:hover {
+      cursor: default;
+      border-radius: 16px;
+      border: 2px solid white;
+      font-family: 'Poppins', sans-serif;
+      transition: all .5s;
+    }
+  
+    .item-title {
+      color: #fff;
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+      width: 250px;
+    }
+
+    .rb-item {
+      transition: all .5s;
+    }
+  
+    .rb-item:hover {
+      width: 400px;
+      transition: all .5s;
     }
 
     }
@@ -502,6 +609,19 @@ body, html {
       font-size: 12px;
       font-family: 'Poppins', sans-serif;
     }
+
+    .rb-item {
+      width: 500px;
+      transition: all .5s;
+    }
+
+    .rb-item:hover {
+      width: 500px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 0 16px 16px 32px;
+      font-size: 20px;
+      transition: all .5s;
+    }
     
     .container-3 {
       width: 5em;
@@ -538,7 +658,7 @@ body, html {
 
 
 
-
+/*Dropdown menu*/
 
     .dropbtn {
     }
