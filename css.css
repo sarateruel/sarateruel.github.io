@@ -98,7 +98,6 @@ body, html {
       width: 7cm;
       filter: drop-shadow(0 0 0.4rem black);
       transition: all .5s;
-      top: 200px !important;
     }
 
 
@@ -153,7 +152,6 @@ body, html {
     #textpanel:hover {
       cursor: default;
       background-color: rgba(0, 0, 0, 0.8);
-      padding: 16px;
       border-radius: 16px;
       border: 2px solid white;
       font-family: 'Poppins', sans-serif;
@@ -206,6 +204,70 @@ body, html {
       text-decoration: none;
     }
 
+
+
+    .iconmobile {
+      margin-top: 10px;
+      width: 64px;
+    }
+
+    
+    .menu-desktop {
+      visibility: visible;
+    }
+
+    .menu-mobile {
+      display: none;
+    }
+
+    #scrollTop {
+      width: 64px;
+      transition: all .2s;
+      margin: 32px;
+    }
+
+    #scrollTop:hover {
+      filter: drop-shadow(0 0 0.2rem Black);
+      transition: all .2s;
+    }
+
+    @media only screen and (max-width: 600px){
+      .menu-desktop {
+        display: none;
+      }
+
+      .menu-mobile {
+        visibility: visible;
+        display: block;
+      }
+
+      #scrollTop {
+        width: 64px;
+        right: -24px;
+        transition: all .2s;
+        margin: 32px;
+      }
+
+      #scrollTop:hover {
+        filter: drop-shadow(0 0 0.2rem Black);
+        transition: all .2s;
+      }
+
+
+
+      #textpanel {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 16px;
+        border-radius: 16px;
+        border: 2px solid gray;
+        font-family: 'Poppins', sans-serif;
+        transition: all .5s;
+        width: 80%;
+    }
+
+    }
+
+
     /*.w3-col > a > img {
       padding: 8px;
       height: 50px;
@@ -232,8 +294,7 @@ body, html {
     }
   
     .logos>a>img:hover {
-      border-radius: 4px;
-      transition: all .1s;
+      transition: all .2s;
     }
 
     .grid {
@@ -249,12 +310,12 @@ body, html {
     .music>a>img {
       width: 100%;
       border-radius: 4px;
-      transition: all 0.1s;
+      transition: all .3s;
     }
   
     .music>a>img:hover {
-      border-radius: 4px;
-      transition: all .1s;
+      width: 100%;
+      transition: all .3s;
     }
 
     .titlegrid {
@@ -269,13 +330,13 @@ body, html {
       .music>a>img {
       width: 100%;
       border-radius: 4px;
-      transition: all 0.1s;
+      transition: all .3s;
     }
   
     .music>a>img:hover {
       width: 100%;
       border-radius: 4px;
-      transition: all .1s;
+      transition: all .3s;
     }
   }
     
