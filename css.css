@@ -329,10 +329,15 @@ body, html {
 
   .gridlogo {
     display: grid;
-    padding: 10%;
-    padding-top: 200px !important;
-    gap: 8px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 9% !important;
+    gap: 10px !important;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+  }
+
+  .logos>a>img {
+    width: 100%;
+    border-radius: 4px;
+    transition: all 0.1s;
   }
 
 
@@ -384,16 +389,6 @@ body, html {
     }
 
 
-    /*.w3-col > a > img {
-      padding: 8px;
-      height: 50px;
-      transition: all .5s;
-    }
-
-    .w3-col > a > img:hover {
-      height: 50px;
-      transition: all .5s;
-    }*/
 
     .gridlogo {
       display: grid;
