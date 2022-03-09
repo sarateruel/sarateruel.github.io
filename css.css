@@ -183,7 +183,7 @@ body, html {
 }
 
     .w3-row {
-      max-width: 100cm;
+      max-width: 20cm;
     }
 
     .w3-col > a > h2 {
@@ -207,11 +207,12 @@ body, html {
 
 
     .iconmobile {
-      width: 64px;
+      width: 50px;
       transition: all .2s;
     }
 
     .iconmobile:hover {
+      width: 52px;
       filter: drop-shadow(0 0 0.2rem white);
       transition: all .2s;
     }
@@ -236,7 +237,7 @@ body, html {
       transition: all .2s;
     }
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 650px){
       .menu-desktop {
         display: none;
       }
@@ -245,7 +246,7 @@ body, html {
         visibility: visible;
         display: block;
         background-color: rgba(0, 0, 0, 0.6); 
-        padding: 16px;
+        padding: 8px;
         border-radius:  0 0 16px 16px;
       }
 
