@@ -60,7 +60,7 @@ body, html {
 
   .parallax-sobremi {
     background-image: url('img/SOBRE\ MI.png');
-    background-color: lightcoral;
+    background-color: #b3b1bd;
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -273,6 +273,14 @@ body, html {
 
       .parallax-2 {
         background-image: url('img/collage1k.png') !important;
+        background-position: center;
+        min-height: 100%;
+      }
+
+      .parallax-sobremi {
+        background-image: url('img/SOBRE\ MI1k.png') !important;
+        background-color: #b3b1bd;
+        background-size: cover;
         background-position: center;
         min-height: 100%;
       }
