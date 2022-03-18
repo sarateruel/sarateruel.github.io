@@ -415,12 +415,17 @@ body, html {
   
     .logos>a>img:hover {
       transition: all .2s;
+      cursor: pointer;
     }
 
     .logos>a>video {
       width: 100%;
       border-radius: 4px;
       transition: all 0.1s;
+    }
+
+    p {
+      cursor: default;
     }
 
     .grid {
